@@ -1,0 +1,282 @@
+* {
+	font-family: 'Roboto Mono', monospace;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+.title {
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 13%;
+	line-height: 12px;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+.date {
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 13%;
+    line-height: 12px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.herd {
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 25%;
+	width: 85%;
+    margin-bottom: 5%;
+}
+
+.story {
+	position: absolute;
+	width: 85%;
+	margin-left: 8%;
+	margin-top: 16%;
+	font-size: 13px;
+	text-align: justify;
+}
+
+.iconleft {
+    position: fixed;
+    margin-left: 8%;
+    margin-top: 25%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    z-index: 10;  
+}
+
+.iconright {
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 25%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    z-index: 10; 
+}
+
+.iconright:hover, .iconleft:hover {
+    color: black;
+    background-color: white;
+}
+
+ @media screen and (max-width:1280px) {
+
+.nav .droptitle {
+    font-size:26px;
+}
+
+.dropbtn {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.dropdown-content {
+    min-width: 150px;
+    font-size: 15px;
+}
+
+.dropdown-content a {
+    padding: 11px 16px; 
+}
+
+.story {
+    font-size: 11px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.date {
+    font-size: 16px;
+    margin-left: 87%;
+}
+
+.iconleft {
+    font-size: 12px;
+    padding: 12px; 
+}
+
+.iconright {
+    margin-left: 90.1%;
+    font-size: 12px;
+    padding: 12px;
+   
+}
+}
+
+ @media screen and (max-width:980px) {
+
+.nav {
+    margin-top: 4%;  
+}
+
+.nav .droptitle {
+    font-size:24px;
+}
+
+.dropbtn {
+    padding: 14px;
+    font-size: 13px;
+}
+
+.dropdown-content {
+    min-width: 140px;
+    font-size: 14px;
+}
+
+.dropdown-content a {
+    padding: 10px 16px; 
+}
+
+.story {
+    font-size: 10px;
+    margin-top: 20%;
+}
+
+.title {
+    font-size: 15px;
+    margin-top: 17%;
+}
+
+.date {
+    font-size: 15px;
+    margin-left: 86%;
+    margin-top: 17%;
+}
+
+.herd {
+    margin-top: 34%;
+}
+
+.iconleft {
+    margin-top: 34%;
+}
+
+.iconright {
+    margin-left: 89.2%;
+    margin-top: 34%;
+   
+}
+}
+
+@media screen and (max-width:736px) {
+
+.nav {
+    margin-top: 5%;  
+}
+
+.nav .droptitle {
+    font-size:20px;
+}
+
+.dropbtn {
+    padding: 12px;
+    font-size: 12px;
+}
+
+.dropdown-content {
+    min-width: 130px;
+    font-size: 12px;
+}
+
+.dropdown-content a {
+    padding: 9px 16px; 
+}
+
+.story {
+    margin-top: 24%;
+}
+
+.title {
+    font-size: 14px;
+    margin-top: 20%;
+}
+
+.date {
+    font-size: 14px;
+    margin-left: 85%;
+    margin-top: 20%;
+}
+
+.herd {
+    margin-top: 45%;
+}
+
+.iconleft {
+    margin-top: 45%;
+}
+
+.iconright {
+    margin-left: 87.8%;
+    margin-top: 45%;
+   
+}
+}
+
+ @media screen and (max-width:480px) {
+
+.nav {
+    margin-top: 8%;  
+}
+
+.nav .droptitle {
+    font-size:18px;
+}
+
+.dropbtn {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.dropdown-content {
+    min-width: 120px;
+    font-size: 11px;
+}
+
+.dropdown-content a {
+    padding: 8px 16px; 
+}
+
+.story {
+    margin-top: 31%;
+}
+
+.title {
+    font-size: 13px;
+    margin-top: 27%;
+}
+
+.date {
+    font-size: 13px;
+    margin-left: 82%;
+    margin-top: 27%;
+}
+
+.herd {
+    margin-top: 75%;
+    margin-bottom: 10%;
+}
+
+.iconleft {
+    margin-top: 75%;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.iconright {
+    margin-left: 86.3%;
+    margin-top: 75%;
+    font-size: 10px;
+    padding: 10px;
+   
+}
+}

@@ -1,0 +1,376 @@
+* {
+	font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+.slider {
+    position:relative;
+}
+.slider img {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-filter: blur(30px); /* Safari 6.0 - 9.0 */
+   filter: blur(30px);
+   transform: scale(1.2);
+}
+
+@-webkit-keyframes xfade {
+    0% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity:1;
+    }
+    16.5% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes xfade {
+    0% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity:1;
+    }
+    16.5% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.slider img:nth-child(8) {
+    -webkit-animation: xfade 8s 0s infinite;
+    animation: xfade 8s 0s infinite;
+}
+.slider img:nth-child(7) {
+    -webkit-animation: xfade 8s 1s infinite;
+    animation: xfade 8s 1s infinite;
+}
+.slider img:nth-child(6) {
+    -webkit-animation: xfade 8s 2s infinite;
+    animation: xfade 8s 2s infinite;
+}
+.slider img:nth-child(5) {
+    -webkit-animation: xfade 8s 3s infinite;
+    animation: xfade 8s 3s infinite;
+}
+.slider img:nth-child(4) {
+    -webkit-animation: xfade 8s 4s infinite;
+    animation: xfade 8s 4s infinite;
+}
+.slider img:nth-child(3) {
+    -webkit-animation: xfade 8s 5s infinite;
+    animation: xfade 8s 5s infinite;
+}
+.slider img:nth-child(2) {
+    -webkit-animation: xfade 8s 6s infinite;
+    animation: xfade 8s 6s infinite;
+}
+.slider img:nth-child(1) {
+    -webkit-animation: xfade 8s 7s infinite;
+    animation: xfade 8s 7s infinite;
+}
+
+.message-form {
+    width: 35%;
+    margin-left: 8%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    background-color: black;
+    padding: 3%;
+    position: absolute;
+}
+
+.formtitle {
+    margin-bottom: 15%;
+    font-size: 20px; 
+    font-weight: 700;
+    color: white;
+}
+
+.contacts-title {
+    margin-bottom: 15%;
+    font-size: 20px; 
+    font-weight: 700;
+    color: white;
+    
+}
+
+
+.box {
+    margin-bottom: 15%;
+    font-size: 12px;
+    color: white;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type=text]:focus {
+    background-color: #d6f5ff;
+}
+
+textarea[type=text]:focus {
+    background-color: #d6f5ff;
+}
+
+.send {
+    background: white;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    float: left;
+}
+
+.send:hover {
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.contacts {
+    width: 20%;
+    background-color: black;
+    padding: 2%;
+    margin-top: 15%;
+    margin-right: 30%;
+    color:white;
+    float: right;
+}
+
+mark {
+    color: black;
+    background-color: white;
+    padding: 2%;
+}
+
+a {
+    color: white;
+}
+
+ @media screen and (max-width:1280px) {
+
+.nav .droptitle {
+    font-size:26px;
+}
+
+.dropbtn {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.dropdown-content {
+    min-width: 150px;
+    font-size: 15px;
+}
+
+.dropdown-content a {
+    padding: 11px 16px; 
+}
+
+.contacts {
+    width: 25%;
+    padding: 2%;
+    margin-right: 25%;
+    
+}
+
+.formtitle {
+    font-size: 18px; 
+}
+
+.contacts-title {
+    font-size: 18px;
+}
+
+}
+
+ @media screen and (max-width:980px) {
+
+.nav {
+    margin-top: 4%;  
+}
+
+.nav .droptitle {
+    font-size:24px;
+}
+
+.dropbtn {
+    padding: 14px;
+    font-size: 13px;
+}
+
+.dropdown-content {
+    min-width: 140px;
+    font-size: 14px;
+}
+
+.dropdown-content a {
+    padding: 10px 16px; 
+}
+
+.contacts {
+    width: 28%;
+    padding: 2%;
+    margin-right: 20%;
+    padding: 3%;
+    
+}
+
+.message-form {
+    padding: 4%;
+}
+
+.formtitle {
+    font-size: 16px; 
+}
+
+.contacts-title {
+    font-size: 16px;
+}
+
+.send {
+    padding: 10px 15px;
+}
+
+}
+
+ @media screen and (max-width:736px) {
+
+.nav {
+    margin-top: 5%;  
+}
+
+.nav .droptitle {
+    font-size:20px;
+}
+
+.dropbtn {
+    padding: 12px;
+    font-size: 12px;
+}
+
+.dropdown-content {
+    min-width: 130px;
+    font-size: 12px;
+}
+
+.dropdown-content a {
+    padding: 9px 16px; 
+}
+
+.contacts {
+    width: 45%;
+    padding: 2%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 20%;
+    padding: 5%;
+    
+}
+
+.formtitle {
+    font-size: 15px; 
+}
+
+.contacts-title {
+    font-size: 15px;
+}
+
+.message-form {
+    width: 60%;
+    margin-top: 80%;
+    padding: 5%;
+    
+}
+
+}
+
+ @media screen and (max-width:480px) {
+
+.nav {
+    margin-top: 8%;  
+}
+
+.nav .droptitle {
+    font-size:18px;
+}
+
+.dropbtn {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.dropdown-content {
+    min-width: 120px;
+    font-size: 11px;
+}
+
+.dropdown-content a {
+    padding: 8px 16px; 
+}
+
+.contacts {
+    width: 55%;
+    padding: 2%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 25%;
+    padding: 5%;
+    font-size: 14px;
+    
+}
+
+.formtitle {
+    font-size: 13px; 
+}
+
+.contacts-title {
+    font-size: 13px;
+}
+
+.message-form {
+    width: 65%;
+    margin-top: 100%;
+    padding: 7%;
+    
+}
+
+}

@@ -1,0 +1,277 @@
+* {
+	font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* white dropdown */
+
+.nav {
+    position: fixed;
+    margin-left: 8%;
+    margin-top: 3%;
+    display: inline-block;
+    z-index: 12;
+}
+
+.nav .droptitle {
+    font-weight: 700;
+    font-size:30px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav:hover .dropdown-content {
+    display: block;
+}
+
+/* end of dropdown*/
+
+.self-container {
+    float: left;
+    width: 30%;
+    margin-left: 8%;
+    margin-top: 15%;
+    margin-bottom: 6%;
+}
+
+.self-container, .self {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.description {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 25%;
+    float: right;
+    margin-right: 33%;
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+.bio {
+    width: 35%;
+    color: white;
+    float: right;
+    margin-right: 24%;
+    margin-top: 1%;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 2%;
+    line-height: 25px;
+    
+}
+
+ @media screen and (max-width:1280px) {
+
+.nav .droptitle {
+    font-size:26px;
+}
+
+.dropbtn {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.dropdown-content {
+    min-width: 150px;
+    font-size: 15px;
+}
+
+.dropdown-content a {
+    padding: 11px 16px; 
+}
+
+.bio {
+    width: 40%;
+    margin-right: 18%;
+    font-size: 12px;  
+}
+
+.description {
+    width: 27%;
+    margin-right: 30%;
+    margin-top: 20%;
+    font-size: 18px;  
+}
+}
+
+ @media screen and (max-width:980px) {
+
+.nav {
+    margin-top: 4%;  
+}
+
+.nav .droptitle {
+    font-size:24px;
+}
+
+.dropbtn {
+    padding: 14px;
+    font-size: 13px;
+}
+
+.dropdown-content {
+    min-width: 140px;
+    font-size: 14px;
+}
+
+.dropdown-content a {
+    padding: 10px 16px; 
+}
+
+.bio {
+    width: 45%;
+    margin-right: 14%; 
+    padding: 3%;
+    font-size: 11px; 
+}
+
+.description {
+    width: 30%;
+    margin-right: 27%;
+    margin-top: 20%;
+    font-size: 16px;
+    
+}
+}
+
+@media screen and (max-width:736px) {
+
+.nav {
+    margin-top: 5%;  
+}
+
+.nav .droptitle {
+    font-size:20px;
+}
+
+.dropbtn {
+    padding: 12px;
+    font-size: 12px;
+}
+
+.dropdown-content {
+    min-width: 130px;
+    font-size: 12px;
+}
+
+.dropdown-content a {
+    padding: 9px 16px; 
+}
+
+.bio {
+    width: 63%;
+    float: right;
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 15%; 
+    
+}
+
+.description {
+    float: right;
+    width: 50%;
+    margin-right: 27%;
+    margin-top: 5%;
+    font-size: 16px;
+    
+}
+
+.self-container, .self {
+    margin-top: 12%;
+    width: 80%;
+}
+
+}
+
+ @media screen and (max-width:480px) {
+
+.nav {
+    margin-top: 8%;  
+}
+
+.nav .droptitle {
+    font-size:18px;
+}
+
+.dropbtn {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.dropdown-content {
+    min-width: 120px;
+    font-size: 11px;
+}
+
+.dropdown-content a {
+    padding: 8px 16px; 
+}
+
+.bio {
+    width: 85%;
+    float: right;
+    margin-right: 5%;
+    padding: 5%;
+    margin-top: 1%;
+    margin-bottom: 20%;   
+}
+
+.description {
+    float: right;
+    width: 60%;
+
+    margin-top: 2%;
+    font-size: 14px;
+    
+}
+
+.self-container, .self {
+    margin-top: 15%;
+    width: 80%;
+}
+
+}
